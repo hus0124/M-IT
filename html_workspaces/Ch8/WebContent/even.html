@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>홀짝을 알려주는 게임</title>
+	<style>
+	body{
+	background-image:url(http://pds25.egloos.com/pds/201312/10/62/f0050462_52a5eaecf3f51.jpg);
+	background-repeat:no-repeat;
+	}
+	</style>
+</head>
+<body>
+<h2>홀짝을 알려주마</h2>
+		<form>
+	 	<input type = "text" id="num1">
+	 	<input type = "button" value = "알려줘라" onclick="calc();"><br>
+	 	
+	 	결과 : <input type="text" id = "Result">
+		</form>	
+	 
+	 <script>
+	  
+	  function calc(){
+		  var A = parseInt(document.getElementById("num1").value);
+		  var result="";	  
+		  		  
+		  if(A % 2 !=0){
+			  result="홀수";
+			  }
+		  
+		  else {
+			  result="짝수";
+			  }
+			 
+		  document.getElementById("Result").value=result;
+		  
+	 	 }
+	  
+	  </script>
+</body>
+</html>

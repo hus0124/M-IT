@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="1" hostname="localhost" id="HTTP Server at localhost" isPublishing="true" name="HTTP Server at localhost" port="80" runtime-id="HTTP Server" server-type="org.eclipse.wst.server.http.server" server-type-id="org.eclipse.wst.server.http.server" start-timeout="240" stop-timeout="240" timestamp="10" urlPrefix="">
+    <list key="modules" value0="Ch2::org.eclipse.wst.web.internal.deployables.static:Ch2::wst.web::1.0" value1="Ch3::org.eclipse.wst.web.internal.deployables.static:Ch3::wst.web::1.0" value2="Ch4::org.eclipse.wst.web.internal.deployables.static:Ch4::wst.web::1.0" value3="Ch5::org.eclipse.wst.web.internal.deployables.static:Ch5::wst.web::1.0" value4="Ch6::org.eclipse.wst.web.internal.deployables.static:Ch6::wst.web::1.0" value5="Ch8::org.eclipse.wst.web.internal.deployables.static:Ch8::wst.web::1.0"/>
+  </server>
+</servers>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>숫자를 더하자</h2>
+		<form>
+	 	<input type = "text" id="num1">~<input type="text" id="num2">
+	 	
+	 		<input type = "button" value = "계산" onclick="sumcalc();"><br>
+	 	
+	 	결과 : <input type="number" id = "result">
+		</form>	<!-- 결과 타입이 만일 text 여도 그냥 정수 타입의 결과가 프린트 된다. -->
+	 
+	 <script>
+	  
+	  function sumcalc(){
+		  var A = parseInt(document.getElementById("num1").value);
+		  var B = parseInt(document.getElementById("num2").value);
+		
+		  var sum1 = 0;
+		  
+		  if(A > B){
+			  for(var i=B; i <= A; i++){
+				sum1 += i; 		  
+			  }
+		  }
+		  else if(B > A){
+			  for(var i=A; i <= B; i++){
+					sum1 += i; 		  
+				  }
+			  }
+		  else{alert("에러 : 다른 두 숫자를 입력하세요");}
+			  
+		  document.getElementById("result").value=sum1;
+	  }
+	 </script>
+</body>
+</html>

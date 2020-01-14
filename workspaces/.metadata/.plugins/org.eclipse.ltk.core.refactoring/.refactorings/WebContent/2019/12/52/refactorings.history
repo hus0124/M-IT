@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 8 elements from project &apos;WebContent&apos;&#x0D;&#x0A;- Original project: &apos;WebContent&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     12장 web_ver1.1.pptx&#x0D;&#x0A;     13장_web.pptx&#x0D;&#x0A;     1장_web.pptx&#x0D;&#x0A;     4장_web.pptx&#x0D;&#x0A;     5장_web.pptx&#x0D;&#x0A;     6장_web).pptx&#x0D;&#x0A;     7장 _web.pptx&#x0D;&#x0A;     9장 web.pptx" description="Delete elements" element1="7장 _web.pptx" element2="5장_web.pptx" element3="12장 web_ver1.1.pptx" element4="13장_web.pptx" element5="1장_web.pptx" element6="6장_web).pptx" element7="4장_web.pptx" element8="9장 web.pptx" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="8" stamp="1577062088057" subPackages="false" version="1.0"/>
+</session>

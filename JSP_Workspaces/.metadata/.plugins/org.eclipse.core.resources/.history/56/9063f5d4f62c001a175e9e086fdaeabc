@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<form action = "result.jsp" method = "get">
+		나만의 검색엔진<br>
+		<input type = "text" name = "search">&emsp;<input type = "submit" value = "검색">
+	</form>
+</body>
+</html>

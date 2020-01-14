@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+#button{background-color:#FFF8C1; text-align: center; width:150px; height:60px; display: inline-block; font-size: 16px;}
+</style>
+</head>
+<body>
+ <h2>생산관리 등록화면</h2>
+  <fieldset style="width:650px">
+   <legend>생산관리 등록화면</legend>
+    <form>
+     <ul>
+     <table>
+     
+     
+       <tr>
+       <td><li>제품코드</li></td>
+       <td><input type = "text" name="productcode"></td>
+      </tr>
+      <tr>
+       <td><li>제품이름</li></td>
+       <td><input type = "text" name="productname"></td>
+      </tr>
+      <tr>
+       <td><li>제품원가</li></td>
+       <td><input type = "text" name="productprice"></td>
+      </tr>
+      <tr>
+       <td><li>목표수량</li></td>
+       <td><input type = "text" name="targetquantity"></td>
+      </tr>
+      <tr>
+       <td><li>재고수량</li></td>
+       <td><input type = "text" name="availablestock"></td>
+      </tr>
+      <tr>
+       <td><li>출고가</li></td>
+       <td><input type = "text" name="shippingprice"></td>
+      </tr>
+      <tr>
+       <td><li>그룹이름</li></td>
+       <td><select name="groupname">
+       <option value="computer">컴퓨터</option>
+       <option value="refrig">냉장고</option>
+       <option value="refrigsupply">냉장소모품</option>
+       </select>
+       </td>
+      </tr>  
+           
+     </table>
+     </ul> 
+    </form>
+   <input type="button" id="button" value="조회">
+   <input type="button" id="button" value="수정">
+   <input type="reset" id="button" value="삭제">
+   <a href="SystemMain.html"><input type="button" id="button" value="메인화면"></a>
+   </fieldset>  
+   
+   
+</body>
+</html>

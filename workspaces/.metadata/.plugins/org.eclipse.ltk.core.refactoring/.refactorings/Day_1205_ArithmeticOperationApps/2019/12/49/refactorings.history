@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;Day_1205_ArithmeticOperationApps/src/homework&apos;&#x0D;&#x0A;- Original project: &apos;Day_1205_ArithmeticOperationApps&apos;&#x0D;&#x0A;- Destination element: &apos;Day_1205_ArithmeticOperationApps/src/homework&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     ArithmeticOperationApps.java&#x0D;&#x0A;     ArithmeticOperations.java" description="Copy compilation units" destination="/src&lt;homework" element1="/src&lt;{ArithmeticOperationApps.java" element2="/src&lt;{ArithmeticOperations.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1575534712154" units="2" version="1.0"/>
+</session>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+body{
+	background-image:url(bono.jpg);
+	background-repeat:no-repeat;
+	background-size: 50%;
+	}
+#s1{color:red;}	
+#s2{color:orange;}	
+#s3{color:yellow;}
+#s4{color:green;}
+#s5{color:blue;}
+#s6{color:navy;}
+#s7{color:purple;}
+		
+	</style>
+</head>
+<body>
+<form action = "table.jsp">
+	<fieldset style = "width:300px">
+	<input type="text" name = "num">&nbsp;개의<br>
+	<span id="s1">테</span><span id="s2">이</span><span id="s3">블</span><span id="s4">을</span> <span id="s5">보여</span><span id="s6">주세</span><span id="s7">요</span><br>
+	<input type="submit" value = "보여줘!">
+	</fieldset>
+</form>
+</body>
+</html>

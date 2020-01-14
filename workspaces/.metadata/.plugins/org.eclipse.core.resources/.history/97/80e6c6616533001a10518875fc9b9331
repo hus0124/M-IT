@@ -1,0 +1,34 @@
+package CallBy;
+
+public class CallByValueReference {
+
+	public static void main(String[] args) {
+		
+		String menu;
+		
+		
+		menu = "Latte";
+		
+		
+		System.out.println("change 角青 傈 ");
+		System.out.println(menu);
+		System.out.println(menu.toString());
+					
+		System.out.println("change 角青 饶 ");
+		System.out.println(change(menu));
+		System.out.println(change(menu).toString());
+		if(menu==change(menu))
+			System.out.println("悼老林家");
+		else
+			System.out.println("促弗林家");
+		
+		
+
+	}
+
+	static String change(String menu) {
+		menu = "Mocca";
+		return menu;
+		
+	}
+}

@@ -1,0 +1,30 @@
+package CallBy;
+
+public class CallByValueReference {
+
+	public static void main(String[] args) {
+		
+		String menu;
+		
+		
+		menu = "Latte";
+		
+		
+		System.out.println("change 실행 전 ");
+		System.out.println(menu);
+		
+		
+		String newmenu = change(menu);
+		
+		System.out.println("change 실행 후 ");
+		System.out.println(newmenu);
+		
+
+	}
+
+	static String change(String menu) {
+		menu = "Mocca";
+		return menu;
+		
+	}
+}

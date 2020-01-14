@@ -1,0 +1,13 @@
+package whatIsClass;
+
+public class ClassEx {
+	public String Name;
+	public int Age;
+	public String Address;
+	
+	public ClassEx(String Name, int Age, String Address){
+		this.Name = Name;
+		this.Age = Age;
+		this.Address = Address;
+	}
+}

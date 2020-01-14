@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<form>
+		<fieldset style ="style=border:5 solid #808080; width:730px">
+			<legend>카드 정보 입력</legend>
+				<table>
+					<tr>	
+						<td align=left valign=top>&nbsp;&nbsp;&nbsp;1.</td>
+						<td>
+							<fieldset style ="style=border:5 solid #808080; width:650px">
+								<legend>카드 타입</legend>
+									&nbsp;&nbsp;&nbsp;1.&nbsp;<input type="radio" name = "Card" id = "VISA" value = "VISA"><label for = "VISA">VISA</label><br/>
+									&nbsp;&nbsp;&nbsp;2.&nbsp;<input type="radio" name = "Card" id = "AmEx" value = "AmEx"><label for = "AmEx">AmEx</label><br/>
+									&nbsp;&nbsp;&nbsp;3.&nbsp;<input type="radio" name = "Card" id = "Mastercard" value = "Mastercard"><label for = "Mastercard">Mastercard</label><br/>
+							</fieldset>
+						</td>
+					</tr>
+					<tr>
+						<td>&nbsp;&nbsp;&nbsp;2.</td>
+						<td>카드 번호&nbsp;<input type = "number" name = "cardnumber"></td>
+					</tr>
+					<tr>
+						<td>&nbsp;&nbsp;&nbsp;3.</td>
+						<td>CRC 번호&nbsp;<input type = "number" name = "crcnumber"></td>
+					</tr>
+					<tr>
+						<td>&nbsp;&nbsp;&nbsp;4.</td>
+						<td>카드 소유자 이름&nbsp;<input type = "text" name = "ownername" value = "카드 상의 이름" style = "color:#BDBDBD"></td>
+					</tr>
+				</table>
+				<p></p>
+		</fieldset>
+		<fieldset style ="style=border:5 solid #808080; width:730px">
+			<input type = "submit" value = "구매">
+		</fieldset>
+	</form>
+</body>
+</html>

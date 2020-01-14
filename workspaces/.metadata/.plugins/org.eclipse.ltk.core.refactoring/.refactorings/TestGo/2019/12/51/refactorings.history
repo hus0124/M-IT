@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;AlonePractice.Stream&apos; to &apos;StreamPrac&apos;&#x0D;&#x0A;- Original project: &apos;TestGo&apos;&#x0D;&#x0A;- Original element: &apos;AlonePractice.Stream&apos;&#x0D;&#x0A;- Renamed element: &apos;AlonePractice.StreamPrac&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Stream&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;AlonePractice{Stream.java[Stream" matchStrategy="1" name="StreamPrac" qualified="false" references="true" similarDeclarations="false" stamp="1576558257111" textual="false" version="1.0"/>
+</session>

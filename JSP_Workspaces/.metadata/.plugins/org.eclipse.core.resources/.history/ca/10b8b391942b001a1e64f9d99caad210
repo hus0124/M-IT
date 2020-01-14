@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+body{
+	background-image:url(bono.jpg);
+	background-repeat:no-repeat;
+	background-size: auto;
+	}
+</style>
+</head>
+<body>
+	<form action = "number2.jsp" method="post">
+		
+		<input type = "text" name = "num1" placeholder="Input Number1"><br>
+		<input type = "text" name = "num2" placeholder="Input Number2"><br>
+		<input type = "text" name = "num3" placeholder="Input Number3"><br>
+		<input type = "text" name = "num4" placeholder="Input Number4"><br>
+		<input type = "text" name = "num5" placeholder="Input Number5"><br><br>
+		
+		<input type = "submit" value = "다더해라">
+	</form>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<table border="3">
+        <tr>
+            <td>섭씨온도</td>
+            <td>화씨온도</td>
+
+        </tr>
+        <script>
+            for (celsius = 0; celsius <= 10; celsius = celsius + 1) {
+                document.write("<tr><td>" + celsius + "</td><td>"
+                + ((celsius * 9.0 / 5) + 32) + "</td></tr>");
+            }
+        </script>
+    </table>
+
+	<script>
+
+
+    document.write("<h1>구구단표</h1>");
+    document.write("<table border=2 width=50%>");
+
+    for (var i = 1; i <= 9; i++) {  
+        document.write("<tr>");
+        document.write("<td>" + i + "</td>");
+
+        for (var j = 2; j <= 9; j++) { 
+            document.write("<td>" + i * j + "</td>");
+        }
+
+        document.write("</tr>");
+    }
+
+    document.write("</table>");
+
+</script>
+	
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+ <form name="myForm">
+ 	필드1<input type="text" name="a0" value="0"><br/>
+ 	필드2<input type="text" name="a1" value="1"><br/>
+ 	필드3<input type="text" name="a2" value="2"><br/>
+ 	필드4<input type="text" name="a3" value="3"><br/>
+ 	
+ 	<input type="button" value="초기화" onclick="init();">
+ </form>
+ 
+ <script>
+ 	function init(){
+ 		for(var i = 0; i < 4; i++){
+ 			document.myForm["a"+i].value = (i+1)*2;
+ 		}
+ 	}
+ </script>
+</body>
+</html>

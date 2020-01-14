@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<form action = "table.jsp">
+	<fieldset style = "width:300px">
+	<input type="text" name = "num">&nbsp;개의<br> 
+	테이블을 보여주세요<br>
+	<input type="submit" value = "보여줘!">
+	</fieldset>
+</form>
+</body>
+</html>

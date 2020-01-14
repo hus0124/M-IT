@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+C:\DEV\JSP_Workspaces\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1999786271.index
+\pocketMoneyDiary\src
+C:\DEV\JSP_Workspaces\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4119271714.index
+\Test3\src
+C:\DEV\JSP_Workspaces\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2402960784.index
+\Test2\src
+C:\DEV\JSP_Workspaces\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1847743821.index
+\Test2\src

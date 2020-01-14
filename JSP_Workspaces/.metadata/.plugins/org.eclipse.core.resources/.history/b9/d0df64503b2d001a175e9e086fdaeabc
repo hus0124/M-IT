@@ -1,0 +1,59 @@
+<%@ page import="java.sql.Connection"
+import="java.sql.DriverManager"
+import="java.sql.ResultSet"
+import="java.sql.SQLException"
+import="java.sql.Statement"  %>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+
+try{
+	Class.forName("org.mariadb.jdbc.Driver");
+	Connection conn=null;
+	ResultSet rs = null;
+	
+	conn = DriverManager.getConnection(
+			"jdbc:mariadb://localhost:3306/javadb",
+			/* 나중에 쓸 때는 "jdbc:mariadb://localhost:3306/DB명" 을 입력한다. */
+			"java",
+			"java");
+	
+	System.out.println("데이터베이스에 정상적으로 연결됨.\n");
+	
+	Statement stmt=conn.createStatement();
+	//rs = stmt.executeQuery("show databases");
+	
+	String date = request.getParameter("date");	//입력날짜
+	String content = request.getParameter("content");
+	String money = request.getParameter("money");
+	
+	rs = stmt.executeQuery("INSERT INTO table_pocketmoneydiary (`date`, `content`, `out`) VALUES ('2020-02-02', 'icecream', '3300');");
+}
+	catch(ClassNotFoundException cnfe){
+		System.out.println("디비 드라이버 로딩 실패 : " + cnfe.toString());
+	}catch(SQLException se){
+		System.out.println("디비 접속 실패: " + se.toString());
+	}catch(Exception e){
+		System.out.println("에러 이유를 모르겠어오");
+		e.printStackTrace();
+	} 
+
+%>
+<h4>입력내용</h4>
+<form action="create.jsp" method="get">
+일자 : <input type = "text" name="date"><br>
+내용 : <input type = "text" name="content"><br>
+금액 : <input type = "number" name="money"><br>
+<input type="radio" name="select" value="in">수입
+<input type="radio" name="select" value="out">지출
+<br><input type="submit" value="확인">
+</form>
+</body>
+</html>

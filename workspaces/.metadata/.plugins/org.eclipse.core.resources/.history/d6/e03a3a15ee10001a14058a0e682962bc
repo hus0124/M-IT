@@ -1,0 +1,19 @@
+package whatIsClass;
+
+public class ClassExTest2 {
+
+	public static void main(String[] args) {
+		ClassEx2 pt = new ClassEx2();
+		
+		// 초기화 해주기
+		
+		String Name= pt.setName("홍길동");
+		int Age = pt.setAge(27);
+		String Address = pt.setAddress("경기도 수원시");
+		
+		System.out.println("이름은 : " + Name);
+		System.out.println("나이는 : " + Age);
+		System.out.println("주소는: " + Address);
+	}
+
+}

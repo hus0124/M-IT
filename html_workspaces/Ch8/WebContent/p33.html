@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>숫자 맞추기 게임</h2>
+	이 게임은 컴퓨터가 생성한 숫자를 맞추는 게임입니다. 숫자는 1부터 100 사이에 있습니다.<br>
+	<form>
+		숫자:
+		<input type = "text" id="number">
+		<input type = "button" id="button" value = "확인"  onclick="gamestart();">
+		<p></p>
+		추측횟수:
+		<input type="text" id="count">
+		힌트:
+		<input type="text" id="hint">
+	</form>
+	
+	<script>
+	var answernum = 53;
+	var count = 0;
+	function gamestart(){
+		
+		var result="";
+		var num = parseInt(document.getElementById("number").value);
+		
+		if(num > answernum){
+			result="높습니다";
+			count++;
+		}
+		else if(num < answernum){
+			result="낮습니다";
+			count++;
+		}
+		else {
+			result="정답입니다";
+			count++;
+		}
+		
+		document.getElementById("count").value=count;
+		document.getElementById("hint").value=result;
+	}
+	</script>
+</body>
+</html>

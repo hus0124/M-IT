@@ -1,0 +1,20 @@
+package CallBy;
+
+public class CallByValueReference {
+
+	public static void main(String[] args) {
+		
+		String menu = "Latte";
+		
+		String newmenu = "Latte";
+		
+		if(menu==newmenu)
+			System.out.println("悼老林家");
+		else
+			System.out.println("促弗林家");
+		
+		
+
+	}
+
+}

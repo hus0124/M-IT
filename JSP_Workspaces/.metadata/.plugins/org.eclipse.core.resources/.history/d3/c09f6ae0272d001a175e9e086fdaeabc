@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>수정중</title>
+<style>
+body {font-size:30px}
+</style>
+</head>
+<body>
+	<fieldset style="width:40%; height:auto; text-align:center">
+	<form action="result.jsp" method="get">
+		<p>
+		<img src="catmoney.png" style="width:55%; height:auto; float:left">
+		<br><br><br>나만의 용돈기입장<br><br>
+		id :&nbsp;&nbsp;<input type="hidden" name = "id"><br><br>
+		pw : <input type="hidden" name = "pw"><br><br>
+		<input type="submit" value = "로그인" style="width:130px;height:60px;font-size:20px;">
+		</p>
+	</form>
+	</fieldset>
+</body>
+</html>

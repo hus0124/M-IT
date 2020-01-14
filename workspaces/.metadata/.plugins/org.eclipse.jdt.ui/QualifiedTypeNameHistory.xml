@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="singletonPattern.SingleStudent"/>
+<fullyQualifiedTypeName name="ClassStyle.PersonValue"/>
+<fullyQualifiedTypeName name="ClassStyle.DoctorValue"/>
+<fullyQualifiedTypeName name="ClassStyle.NurseValue"/>
+<fullyQualifiedTypeName name="ClassStyle.PatientValue"/>
+<fullyQualifiedTypeName name="Interface_case01.MessageBeanKr"/>
+<fullyQualifiedTypeName name="Interface_case01.MessageBeanEn"/>
+<fullyQualifiedTypeName name="Interface_case02.MessageBean"/>
+<fullyQualifiedTypeName name="Interface_case02.MessageBeanEn"/>
+<fullyQualifiedTypeName name="Instanceof.AbstractBaseService"/>
+<fullyQualifiedTypeName name="Instanceof.BaseService"/>
+<fullyQualifiedTypeName name="Enum.ClothingTest"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.net.Socket"/>
+<fullyQualifiedTypeName name="java.io.BufferedInputStream"/>
+<fullyQualifiedTypeName name="java.io.BufferedOutputStream"/>
+<fullyQualifiedTypeName name="net1.TCPEchoClient"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="basic.Add1"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+<fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+</qualifiedTypeNameHistroy>

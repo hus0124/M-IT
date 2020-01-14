@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+body{
+	background-image:url(http://pds25.egloos.com/pds/201312/10/62/f0050462_52a5eaecf3f51.jpg);
+	background-repeat:no-repeat;
+	}
+	</style>
+</head>
+<body>
+	<fieldset style=width:45%>
+		<form action = "cal" method="get">
+			num1&emsp;num2<br>
+			num1&nbsp;num2<br>
+			<input type="text" name="num1"> + 
+			<input type="text" name="num2"><br>
+			<input type="submit" value="계산"> 
+		</form>
+	</fieldset>
+</body>
+</html>
