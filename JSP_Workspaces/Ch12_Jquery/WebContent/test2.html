@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+        div.out {
+            width: 200px;
+            height: 60px;
+            background-color: yellow;
+        }
+    </style>
+
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+    <div class="out">
+        <p>마우스를 여기로 움직이세요.</p>
+
+        <p>0</p>
+    </div>    
+</body>
+
+    <script src="http://code.jquery.com/jquery-1.10.1.js"></script>
+	    <script>
+        var i = 0;
+        $("div.out").mouseover(function () {
+            $("p:first", this).text("mouse over");	// p요소 중 첫 번째 p단락 
+            $("p:last", this).text(++i);			// p요소 중 마지막 p단락
+
+        })
+    </script>
+	
+</html>

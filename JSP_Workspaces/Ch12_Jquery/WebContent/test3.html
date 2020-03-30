@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+아이디&nbsp;:<input id = "a1" type="text" name="name"><br>
+비밀번호 :<input id = "a2" type = "text" name="password"> 
+</body>
+
+<script src="http://code.jquery.com/jquery-1.10.1.js"></script>
+ <script>
+
+                $(document).ready(function () {
+                    $("#a1").focus(function () {
+                        $(this).css("background-color", "yellow");
+                    });
+                   
+                	$("#a2").focus(function () {
+                		$(this).css("background-color", "red");
+                	});
+
+                	$("input").blur(function () {
+                        $(this).css("background-color", "white");
+                    });
+                                 	
+                });
+
+                
+    </script>
+
+</html>
